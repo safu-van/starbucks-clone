@@ -1,0 +1,424 @@
+@font-face {
+    font-family: 'sodo_sanslight';
+    src: url('sodo-sans-6-webfont.woff2') format('woff2'),
+         url('sodo-sans-6-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body{
+    font-family: SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: "sodo_sanslight";
+    margin: 0px;
+}
+.main-box{
+    width: 100%;
+    height: 2000px;
+}
+.header{
+    width: 1351px;
+    position: fixed;
+    height: 75px;
+    background-color: white;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+    margin-left: 139px;
+    margin-top: 16px;
+
+}
+.logo-div{
+    width:15% ;
+    height: 40px;
+    float: left;
+
+}
+.navbar div{
+    font-size: 16px;
+    float: left;
+    padding-top: 28px
+}
+.search{
+    float: left;
+    box-shadow: 0 0 2px #00000012, 0 2px 2px #0000000f, 0 1px 3px #0000001a;
+    width: 245px;
+    border-radius: 20px;
+    padding-left: 19px;
+    margin-left: 160px;
+    height: 37px;
+    margin-top: 17px;
+}
+.search-img{
+    margin-top: 12px;
+    float: left;
+}
+.search-bar{
+    float: left;
+    border: none;
+    width: 190px;
+    font-size: 12px;
+    margin-top: 12px;
+    margin-left: 3px;
+    font-family: inherit;
+}
+.account-img{
+    float: left;
+    margin-left: 95px;
+    width: 32px;
+    height: 32px;
+    margin-top: 20px;
+}
+.box1{
+    width: 100%;
+    height: 88px;
+    background: #1e3932;
+    padding-top: 68px;
+}
+.para1{
+    float: left;
+    color: white;
+    width: 31%;
+    height:80px;
+    font-size: 20px;
+    padding-left: 135px
+}
+.know-more{
+    float: left;
+    width: 40%;
+    height: 80px;
+    margin-left: 176px
+}
+.know-button{
+    background-color: transparent;
+    width: 98px;
+    height: 32px;
+    font-size: 12px;
+    border: 1px solid #ffffff;
+    color: #fff;
+    border-radius: 30px;
+    margin-left: 310px;
+    margin-top: 27px;
+    font-weight: 560;
+}
+.box2{
+    width: 100%;
+    height:200px;
+    font-weight: bold;
+    font-size: 14px;
+    padding-top: 5px;
+    text-align: center;
+}
+.image1{
+    float: left;
+    margin-left: 125px;
+}
+.image-1{
+    height: 108px;
+    width: 108px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.image2{
+    float: left;
+    margin-left: 90px;
+}
+.image-2{
+    height: 108px;
+    width: 108px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.image3{
+    float: left;
+    margin-left: 95px;
+}
+.image-3{
+    height: 108px;
+    width: 108px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.image4{
+    float: left;
+    margin-left: 95px;
+}
+.image-4{
+    height: 108px;
+    width: 108px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.image5{
+    float: left;
+    margin-left: 95px;
+}
+.image-5{
+    height: 108px;
+    width: 108px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.image6{
+    float: left;
+    margin-left: 95px;
+}
+.image-6{
+    height: 108px;
+    width: 108px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.box3{
+    float: left;
+    width: 1210px;
+    margin-top: 35px;
+    margin-bottom: 85px;
+    height: 220px;
+}
+.inner-box{
+    background-image: url(pictures/inner-box.png);
+    border-radius: 8px;
+    margin-left: 133px;
+    height: 220px;
+    width: 1105px;
+    background-position-y: 30%;
+}
+.inner-image{
+    width: 12%;
+    float: left;
+}
+.innerimage{
+    width: 100px;
+    margin-top: 13px;
+}
+.inner-box2{
+    float: left;
+    height: 220px;
+}
+.button-div{
+    float: left;
+    margin-top: 145px;
+    margin-left: 148px;
+}
+.button{
+    color: #fff;
+    background-color: #00754a;
+    border-radius: 30px;
+    font-size: 12px;
+    border: 0;
+    height: 49px;
+    width: 200px;
+    font-weight: 600;
+}
+.box4{
+    float: left;
+    background: #edebe9;
+    width: 100%;
+    height: 310px;
+}
+.viewmenu{
+    float: left;
+    color: #00754a;
+    font-weight: bold;
+    margin-left: 815px;
+    margin-top: 33px;
+    font-size: 13px;
+    font-family: SoDoSans_Semibold,Helvetica,sans-serif;
+    padding-right: 52px;
+}
+.flower{
+    float: left;
+}
+.card{
+    float: left;
+    width: 100%;
+    height: 160px;
+    padding-top: 26px;
+}
+.card1{
+    float: left;
+    background-color: #fff;
+    height: 150px;
+    width: 349.333px;
+    margin-left: 144px;
+    border-radius: 8px;
+}
+.card2{
+    float: left;
+    background-color: #fff;
+    height: 150px;
+    width: 349.333px;
+    margin-left: 24px;
+    border-radius: 8px;
+}
+.card3{
+    float: left;
+    background-color: #fff;
+    height: 150px;
+    width: 349.333px;
+    margin-left: 24px;
+    border-radius: 8px;
+}
+.cardimage1{
+    float: left;
+    padding-left: 25px;
+    padding-top: 15px;
+}
+.card-image-1{
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+.card-1-text{
+    float: left;
+    padding-left: 18px;
+    padding-top: 19px;
+    margin-right:36px;
+}
+.additem-btn{
+    width: 96px;
+    height: 32px;
+    padding: 0;
+    border-radius: 30px;
+    font-size: 12px;
+    background-color: #00754a;
+    color: white;
+    border: none;
+    font-weight: 600;
+}
+.box5{
+    float: left;
+    margin-top: 40px;
+    height: 500px;
+    background-color:#edebe9;
+}
+.box-5-top{
+    display:flex;
+    justify-content:space-between;
+    margin-left: 74px;
+    margin-right: 74px;
+    float: left;
+}
+.top-left{
+    font-size: 26px;
+    font-weight: bold;
+    color: black;
+    font-family:Helvetica,sans-serif;
+}
+.top-right{
+    font-size: 13px;
+    color: #00754a;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 637px
+}
+.box-5-bottom{float: left;
+
+    margin-left: 87px;
+    margin-right: 87px;
+    border-radius: 8px;
+    background: url(https://preprodtsbstorage.blob.core.windows.net/cms/uploads/web_ab5a0057ab.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 375px;
+    margin-bottom: 20px;
+}
+.box-5-para1{
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 177px;
+    color: white;
+    margin-left: 32px;
+}
+.box-5-para2{
+    font-size: 15px;
+    color: white;
+    margin-left: 32px;
+}
+.btn-learnmore{
+    background: #fff;
+    color: #000;
+    border-radius: 25px;
+    padding: 13px;
+    width: 150px;
+    margin-right: 867px;
+    margin-left: 37px;
+    padding-left: 60px;
+    margin-top: 25px;
+    font-size: 15px;
+    letter-spacing: 0.03em;
+}
+.footer{
+    float: left;
+    background-color: #0e382c;
+    color: white;
+    width: 100%;
+    height: 447px;
+    margin-top: 75px;
+}
+.footer-logo{
+    float: left;
+    margin-left: 98px;
+    margin-top: 55px;
+}
+.footer-1{
+    float: left;
+    margin-left: 133px;
+    margin-top: 40px;
+}
+.footer-1 p{
+    font-size: 13px;
+    padding-bottom: 15px;
+}
+.footer-2{
+    float: left;
+    margin-left: 120px;
+    margin-top: 40px
+}
+.footer-2 p{
+    font-size: 13px;
+    padding-bottom: 15px;
+}
+.footer-3{
+    float: left;
+    margin-left: 95px;
+    margin-top: 40px
+}
+.footer-3 p{
+    font-size: 13px;
+    padding-bottom: 15px;
+}
+.socialmedia{
+    float: left;
+    margin-top: 40px;
+    margin-left: 90px;
+}
+.socialmedia img{
+    padding-right: 10px;
+}
+.download{
+    float: left;
+    width: 194px;
+    height: 62px;
+    margin-top: 55px;
+    margin-left: 43px;
+}
+.copyright-footer{
+    float: left;
+    width: 1171px;
+    margin-left: 101px;
+    margin-top: 39px;
+}
+.copyright-footer p{
+    float: left;
+    padding-right: 10px;
+    font-size: 10px;
+}
+.copyright-footer div{
+    float: left;
+    font-size: 10px;
+    margin-top: 10px;
+    margin-left: 560px;
+}
